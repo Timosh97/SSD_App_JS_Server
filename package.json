@@ -1,0 +1,19 @@
+{
+  "name": "nodecatsdogs",
+  "version": "1.0.0",
+  "description": "A NodeJS app for TensorFlowJS model serving for Cats and Dogs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marvin Desmond",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mitt": "^3.0.0",
+    "ml-distance-euclidean": "^2.0.0",
+    "mongoose": "^6.3.2"
+  }
+}
